@@ -34,33 +34,33 @@ def identify_motifs(sequences, motif):
 def perform_sequence_alignment(sequence1,seqeuence2):
     alignment_score = 0
     align_sequences = ""
-    min_length = min(len(sequence1), len(sequence2))
+    min_length = min(len(sequence1), len(sequence2))  # Determine the minimum length of the two sequences
     for i in range(min_length):
-        base1 = sequence1[i]
-        base2 = sequence2[i]
+        base1 = sequence1[i]  # Get the base at the corresponding position in sequence1
+        base2 = sequence2[i]  # Get the base at the corresponding position in sequence2
         if base1 == base2:
-            alignment_score += 1
-            aligned_sequences += base1
+            alignment_score += 1  # Increment alignment score if bases match
+            aligned_sequences += base1  # Append the base to the aligned sequences
         else:
-            aligned_sequences += "-"
+            aligned_sequences += "-"  # Append a hyphen for mismatched bases
     if len(sequence1) > min_length:
-        aligned_sequences += sequence1[min_length:]
+        aligned_sequences += sequence1[min_length:]  # Append the remaining portion of sequence1
     elif len(sequence2) > min_length:
-        aligned_sequences += sequence1[min_length:]
+        aligned_sequences += sequence1[min_length:]  # Append the remaining portion of sequence2
     return alignment_score, align_sequences
 
 
-sequences = input_sequences()
+sequences = input_sequences()  # Step 1
 print("Sequences:", sequences)
 
-nucleotide_freq = calculate_nucleotide_frequencies(sequences)
+nucleotide_freq = calculate_nucleotide_frequencies(sequences)  # Step 2
 print("Nucleotide Frequencies:", nucleotide_freq)
 
 motif = input("Enter the motif to idenify: ")
-motif_positions = identify_motifs(sequences, motif)
+motif_positions = identify_motifs(sequences, motif)  # Step 3
 print("Motif Positions:", motif_positions)
 
 if len(sequences) >= 2:
     sequence1 = sequences[0]
     sequence2 = sequences[1]
-    alignment_score, aligned_sequences = perform_sequence_alignment(sequence1, sequence2)
+    alignment_score, aligned_sequences = perform_sequence_alignment(sequence1, sequence2)  # Step 4
