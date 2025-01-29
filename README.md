@@ -84,10 +84,11 @@ A: 10, T: 7, G: 6, C: 5
 ---
 
 ## 🚀 Future Improvements
-🔹 Implement **GUI version** for better user interaction.
-🔹 Add **error handling** for invalid sequences.
-🔹 Expand **similarity metrics** beyond basic comparisons.
-🔹 Integrate **data visualization** for sequence patterns.
+
+- Implement **GUI version** for better user interaction.
+- Add **error handling** for invalid sequences.
+- Expand **similarity metrics** beyond basic comparisons.
+- Integrate **data visualization** for sequence patterns.
 
 ---
 
@@ -98,7 +99,9 @@ Pull requests are welcome! If you have ideas to improve the project, feel free t
 
 ## 📩 Contact
 If you have any questions, feel free to reach out:
+
 📧 Email: mdarukha@ucdavis.edu
+
 💼 LinkedIn: https://www.linkedin.com/in/mdarukha/
 
 Happy coding! 🚀
