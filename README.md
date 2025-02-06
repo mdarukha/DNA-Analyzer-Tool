@@ -20,8 +20,7 @@ This project showcases **Python fundamentals, file handling, string manipulation
 ✔ **Motif Identification** – Searches for specific DNA patterns within sequences.  
 ✔ **Sequence Comparison** – Measures similarity between sequences.  
 ✔ **Modular Code Structure** – Functions are organized for readability and scalability.
-
-✔ **Data Visualizations** – Generates plots for nucleotide frequency distribution and displays sequence alignment results.
+✔ **Modular Code Structure** – Functions are organized for readability and scalability.
 
 ---
 
