@@ -16,12 +16,11 @@ This project showcases **Python fundamentals, file handling, string manipulation
 ## 🔧 Features & Functionalities
 
 ✔ **File-Based Input** – Users can upload a `.txt` file containing multiple DNA sequences.
-✔ **Modular Code Structure** – Functions are organized for readability and scalability.
 ✔ **Nucleotide Frequency Analysis** – Calculates occurrences of A, T, C, and G.  
 ✔ **Motif Identification** – Searches for specific DNA patterns within sequences.  
 ✔ **Sequence Comparison** – Measures similarity between sequences.  
 ✔ **Modular Code Structure** – Functions are organized for readability and scalability.
-
+✔ **visualization**
 
 ---
 
